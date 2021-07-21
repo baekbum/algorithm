@@ -33,7 +33,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.HashMap;
 
 @SpringBootTest
-public class hashThree {
+public class hash3 {
 
     @Test
     public void hashMain() {

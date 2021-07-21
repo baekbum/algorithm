@@ -22,7 +22,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.HashMap;
 
 @SpringBootTest
-public class hashOne {
+public class hash1 {
 
     @Test
     public void hashMain() {

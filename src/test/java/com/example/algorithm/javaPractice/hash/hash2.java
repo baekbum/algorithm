@@ -27,7 +27,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.Arrays;
 
 @SpringBootTest
-public class hashTwo {
+public class hash2 {
 
     @Test
     public void hashMain() {
