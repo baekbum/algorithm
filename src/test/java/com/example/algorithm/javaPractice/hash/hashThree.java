@@ -45,7 +45,9 @@ public class hashThree {
     }
 
     private int solution(String[][] clothes) {
-        int answer = 1;
+        int answer = 0;
+        int mul = 1;
+        int add = 0;
         HashMap<String, Integer> map = new HashMap<>();
 
         for (int i = 0; i < clothes.length; i++) {
@@ -53,16 +55,11 @@ public class hashThree {
         }
 
         for (String key : map.keySet()) {
-            System.out.println("key : " + key + "value : " + map.get(key));
-            answer *= map.get(key);
-            System.out.println("answer : " + answer);
+            mul *= map.get(key);
+            add += map.get(key);
         }
-        System.out.println("----------------");
-        for (String key : map.keySet()) {
-            System.out.println("key : " + key + "value : " + map.get(key));
-            answer += map.get(key);
-            System.out.println("answer : " + answer);
-        }
+
+        answer = mul + add;
 
         return answer;
     }
