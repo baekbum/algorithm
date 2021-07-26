@@ -65,6 +65,7 @@ public class stackAndQueue2 {
             for (Print p : queue) {
                 if (print.getImportance() < p.getImportance()) {
                     isMoreExist = true;
+                    break;
                 }
             }
 
