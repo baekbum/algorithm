@@ -29,7 +29,7 @@ import java.util.Queue;
 public class stackAndQueue1 {
 
     @Test
-    public void searchMain() {
+    public void queueMain() {
         int[] progresses = new int[]{95, 90, 99, 99, 80, 99};
         int[] speeds = new int[]{1, 1, 1, 1, 1, 1};
 

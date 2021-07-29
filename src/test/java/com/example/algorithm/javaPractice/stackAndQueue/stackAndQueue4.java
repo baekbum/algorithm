@@ -16,7 +16,6 @@ prices	        return
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -24,7 +23,7 @@ import java.util.Queue;
 public class stackAndQueue4 {
 
     @Test
-    public void searchMain() {
+    public void queueMain() {
         int[] prices = new int[]{1, 2, 3, 2, 3};
 
         int[] answer = solution(prices);

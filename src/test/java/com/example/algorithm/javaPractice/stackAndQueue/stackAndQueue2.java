@@ -38,7 +38,7 @@ import java.util.Queue;
 public class stackAndQueue2 {
 
     @Test
-    public void searchMain() {
+    public void queueMain() {
         int[] priorities = new int[]{1, 1, 9, 1, 1, 1};
         int location = 0;
 

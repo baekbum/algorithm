@@ -45,7 +45,7 @@ import java.util.Queue;
 public class stackAndQueue3 {
 
     @Test
-    public void searchMain() {
+    public void queueMain() {
         int bridge_length = 100;
         int weight = 100;
         int[] truck_weights = new int[]{10,10,10,10,10,10,10,10,10,10};
